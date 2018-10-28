@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>
+		Image Gallery
+	</title>
+	<link rel="stylesheet" type="text/css" href="styles/layout.css">
+<body>
+	<h1>大耳朵图</h1>
+	<ul>
+		<li>
+			<a href="images/no1.jpg" title="鸭子一号" onclick = "showPic(this);return false;">鸭子一号</a>
+		</li>
+		<li>
+			<a href="images/no2.jpg" title="鸭子二号" onclick = "showPic(this);return false;">鸭子二号</a>
+		</li>
+		<li>
+			<a href="images/no3.jpg" title="鸭子三号" onclick = "showPic(this);return false;">鸭子三号</a>
+		</li>
+	</ul>
+	<img id = "place" src= "images/no1.jpg" alt="my image" /> 
+	<p id = "description">图片说明</p>
+	<script type="text/javascript" src = "scripts/showpic.js"></script>
+</body>
+</html>
